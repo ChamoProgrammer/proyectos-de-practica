@@ -1,0 +1,92 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ranchers', cursive;
+}
+
+body   {
+    background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tesla-cybertruck-2022-1600-01-1574412941.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.container-fluid  {
+    background: #414040;
+    margin: 0 9%;
+}
+
+.row   {
+    text-align: center;
+    margin-top: 5rem;
+}
+.row .title-heading   {
+    text-transform: uppercase;
+    color: #00777b;
+    font-size: 72px;
+    letter-spacing: 2px;
+    font-family: 'Berkshire Swash', cursive;
+
+}
+.row .title-subheading   {
+    text-transform: uppercase;
+    color: #bf6c00;
+    font-size: 42px;
+    letter-spacing: 2px;
+    font-family: 'Berkshire Swash', cursive;
+    margin-bottom: 85px;
+}
+
+.card   {
+    background: transparent; 
+    color: #aeaeae;
+    border: 5px dotted #3b7471;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* position: relative; */
+}
+
+#customer-name    {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.img-card   {
+    width: 200px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    margin-top: -55px;
+    position: relative;
+    left: 1%;
+}
+
+.star-icon         {
+    color: #1d009d;
+    font-size: 22px;
+}
+
+.prevBtn, .nextBtn   {
+    background: aquamarine;
+    color: #000000;
+    font-size: 23px;
+    border-radius: 9px;
+    position: absolute;
+}
+
+.prevBtn    {
+    top: 65%;
+    left: 13%;
+    transform: translate(-10%, -1%);
+}
+.nextBtn    {
+    top: 65%;
+    right: 13%;
+    transform: translate(10%, -50%);
+}

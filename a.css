@@ -1,0 +1,46 @@
+  body  {
+      background: #eeeeee;
+  }
+
+  h1  {
+      color: #950000;
+      font-size: 80px;
+      text-align: center;
+  }
+
+  #btnWrapper   {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .colourBtn  {
+      padding: 30px;
+      margin: 10px 80px;
+      border-radius: 50px;
+      background: red;
+  }
+
+  .btn  {
+    background: #747474;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #420000;
+    position: relative;
+    left: 40%;
+    top: 55px;
+    transition: .3s;
+  }
+  .btn:hover   {
+      color: #00043d;
+      background: #fff;
+      border: 2px dotted #000;
+  }
+
+  #answer  {
+      color: #420000;
+      font-size: 55px;
+      text-align: center;
+  }

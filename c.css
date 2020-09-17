@@ -1,0 +1,128 @@
+body {
+    background-color: #27ff27;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.todo-wrapper {
+    margin-top: 50px;
+    background: #ffffff;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-weight: 300;
+}
+
+.todo-wrapper h1 {
+    margin-bottom: 42px;
+    font-size: 66px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.todo-wrapper p {
+    font-style: italic;
+    font-size: 22px;
+    color: #5c5c5c;
+    margin: 5px 0;
+    margin-left: 22%;
+}
+
+.todo-wrapper ol {
+    margin: 20px 0;
+}
+
+.todo-wrapper ol li {
+    margin: 5px 0;
+    padding: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all .5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.todo-wrapper ol li:nth-child(even) {
+    background: rgb(184, 145, 145);
+}
+
+.todo-wrapper .completed {
+    text-decoration: line-through;
+    color: #666;
+}
+
+.todo-wrapper .pretty-btn {
+    margin: 10px 2px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: #4aa8ff;
+    border: none;
+    color: #470000;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.todo-wrapper .pretty-button:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.todo-wrapper input {
+    padding: 8px 12px;
+    border-radius: 12px;    
+}
+.todo-wrapper input::placeholder  {
+    color: #330066;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.todo-wrapper form {
+    display: inline-block;
+    margin-left: 22%;
+}
+
+#control-wrapper {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.todo-wrapper #clear-completed-btn {
+    background-color: #9eff9e;
+}
+
+.todo-wrapper #emtpy-btn {
+    background-color: #9c3236;
+    color: #fff;
+}
+
+.todo-wrapper #save-btn {
+    background-color: #2176d8;
+    color: #fff;
+}
+
+@media only screen and (min-width: 1400px) {
+    .todo-wrapper {
+        width: 50%;
+    }
+
+    .todo-wrapper input {
+        width: 600px;
+    }
+    
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+    .todo-wrapper {
+        width: 75%;
+    }
+
+    .todo-wrapper input {
+        width: 400px;
+    }
+}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+span {
+    display: block;
+}
+.canvas {
+    margin:  100px auto 100px;
+    width: 80%;
+    text-align: center;
+}
+h1  {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    color: #00005a;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#grey{
+    background: grey;
+}
+
+#white{
+    background: white;
+}
+#blue{
+    background: blue;
+}
+#yellow{
+    background: yellow;
+    background: ;
+}
+#red  {
+    background: red;
+}
+#aqua  {
+    background: aqua;
+}
+#chocolate  {
+    background: chocolate;
+}
+#brown  {
+    background: brown;
+}

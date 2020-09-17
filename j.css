@@ -1,0 +1,23 @@
+body   {
+    background: #edad;
+}
+
+.img-card   {
+    background: url(https://w7.pngwing.com/pngs/812/392/png-transparent-white-bulb-incandescent-light-bulb-lighting-icon-bulb-off-light-fixture-electronics-image-file-formats.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+    width: 30vw;
+    height: 80vh;
+    position: relative;
+    left: 35%;
+}
+
+
+.img-card.img2  {
+    background: url(https://cdn.pixabay.com/photo/2016/04/09/16/09/light-bulb-1318337_960_720.png);
+    width: 30vw;
+    background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+}
